@@ -28,3 +28,56 @@ body{
     justify-content: flex-end;
     width: 70.2vw;
 }
+
+.button-control{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 650px;
+    margin-left: 4%;
+}
+.button-group-vertical{
+    display: flex;
+    flex-direction: column;
+    width: 228px;
+    height: 226px;
+    -webkit-box-shadow: -1px 6px 10px -2px rgba(0,0,0,0.5);
+    -moz-box-shadow: -1px 6px 10px -2px rgba(0,0,0,0.5);
+    box-shadow: -1px 6px 10px -2px rgba(0,0,0,0.5);
+}
+.button{
+    display: flex;
+    align-items: center;
+    width: 228px;
+    height: 48px;
+    border: 0;
+    background-color: white;
+}
+.button__icon,
+.button__circle{
+    margin-left: 1%;
+    margin-right: 14%;
+}
+.button__choose-color,
+.button__prev-color{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.button__circle{
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 100%;
+}
+.circle-color{
+    background-color: gray;
+}
+.circle-prev-color{
+    background-color: greenyellow;
+}
+.circle-user-color1{
+    background-color: red;
+}
+.circle-user-color2{
+    background-color: yellow;
+}
