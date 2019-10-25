@@ -6234,7 +6234,6 @@ let colorArray=[
 console.log(colorArray)
 for (let i=0;i<colorArray.length;i++){
     for (let j=0;j<colorArray[i].length;j++){
-        console.log(colorArray[i][j].join());
         canvas32.fillStyle='rgb('+colorArray[i][j].join()+')';
         canvas32.fillRect(j*16,i*16,16,16);
     }

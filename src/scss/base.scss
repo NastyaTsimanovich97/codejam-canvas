@@ -83,3 +83,32 @@ main{
 .circle-user-color2{
     background-color: yellow;
 }
+
+.section__canvas{
+    display: flex;
+    height: 512px;
+    margin-top: 4.6%;
+    margin-left: 10%;
+}
+.button-control__canvas{
+    height: 512px;
+}
+.button__canvas-group{
+    position: absolute;
+    top: 12.6%;
+    left: 76%;
+}
+.button__canvas{
+    justify-content: center;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    &:hover{
+        transform: scale(0.95);
+    }
+}
+.button__canvas-group{
+    justify-content: space-around;
+}
+#canvas32,
+#canvas256{
+    display: none;
+}
