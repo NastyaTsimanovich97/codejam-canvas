@@ -6231,10 +6231,15 @@ let colorArray=[
       ]
     ]
   ]
-console.log(colorArray)
 for (let i=0;i<colorArray.length;i++){
     for (let j=0;j<colorArray[i].length;j++){
         canvas32.fillStyle='rgb('+colorArray[i][j].join()+')';
         canvas32.fillRect(j*16,i*16,16,16);
     }
 }
+
+let canvas256 = document.getElementById('canvas256').getContext('2d');
+let img = new Image();
+
+canvas256.drawImage(document.getElementById('canvas_img'),0,0,512,512);
+
