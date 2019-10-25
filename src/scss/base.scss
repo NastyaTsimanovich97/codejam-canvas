@@ -28,7 +28,9 @@ body{
     justify-content: flex-end;
     width: 70.2vw;
 }
-
+main{
+    display: flex;
+}
 .button-control{
     display: flex;
     flex-direction: column;
