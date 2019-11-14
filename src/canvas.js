@@ -24,6 +24,7 @@ function createCanvas4(canvas){
 }
 createCanvas4(canvas);
 
+
 function createCanvas32(canvas){
   for (let i=0;i<colorArray.length;i++){
     for (let j=0;j<colorArray[i].length;j++){
@@ -32,6 +33,7 @@ function createCanvas32(canvas){
     }
   }
 }
+
 
 function createCanvas256(canvas){
   let img = new Image();
