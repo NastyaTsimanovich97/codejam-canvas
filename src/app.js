@@ -1,7 +1,6 @@
 import './scss/base.scss';
 import './canvas.js'
 
-console.log('codejam-canvas');
 
 let canvas4=document.getElementById('canvas4');
 let canvas32=document.getElementById('canvas32');
